@@ -1,0 +1,229 @@
+:root,* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #181818;
+}
+
+/*-----APP-----*/
+/*TAGS FLEXs*/
+main, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background-color: #181818;
+  font-family: "Open Sans", serif;
+}
+main{
+  content:'';
+  background-image: url(../assets/background.png);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50% 50% 50% 50% / 10% 10% 10% 10%;
+  padding:200px 0px;
+  flex-direction: column;
+  font-family: "Open Sans", serif;
+}
+footer{
+  height: 150px;
+  background-color: #181818;
+  justify-content: space-around;
+  font-family: "Open Sans", serif;
+}
+
+
+/*-----COMPONENTES-----*/
+/*DIVs FLEX*/
+.menu-tel, .links-menu-tel, .menu, .links, .sobre, .mini-sobre, .linguagens, .container-projetos, .projeto, .empresa, .descricao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  width: 100%;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.detalhe, .detalhe2{
+  height: 5px;
+  width: 500px;
+  background-color: rgb(0, 174, 255);
+  border-radius: 10px;
+}
+.links{
+  gap: 30px;
+  padding-right: 100px;
+}
+.links a, .links-menu-tel a {
+  text-decoration: none;
+  color: white;
+  
+  &:hover{
+    color: #8a8989;
+  }
+}
+/*TITULOS */
+.T1, .T2{
+  font-family: "Raleway", serif;
+  font-size: 180px;
+  color: aliceblue;
+  letter-spacing: 4px;
+  position: absolute;
+  font-weight: 400;
+}
+.T1{
+  top: 150px;
+  left: 150px;
+  animation: entrada1 2s linear;
+}
+.T2{
+  bottom: 150px;
+  right: 150px;
+  animation: entrada2 2s linear;
+}
+.detalhe2{
+  position: absolute;
+  bottom: 50px;
+  right: 0px;
+}
+
+/*MENU PARA TELEFONE*/
+.menu-hamburguer{
+  color: white;
+  font-size: 20px;
+  display: none;
+}
+.menu-tel{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: +3;
+  background-color: #1b1a1a79;
+  backdrop-filter: blur(10px);
+}
+.fechar{
+  color: white;
+  font-size: 30px;
+
+  &:hover{
+    color: red;
+  }
+}
+.links-menu-tel{
+  flex-direction: column;
+  gap: 50px;
+  font-size: 20px;
+}
+
+/*SOBRE*/
+#sobre{
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 50px;
+}
+.sobre{
+  gap: 20px;
+}
+.icone-sobre{
+  height: 400px;
+}
+.sobre-texto{
+  width: 550px;
+  font-size: 18px;
+  color: white;
+}
+.mini-sobre{
+  margin-top: 34px;
+  justify-content: start;
+  gap: 4px;
+}
+.mini-sobre h3{
+  font-weight: 500;
+  font-family: "Raleway", serif;
+}
+.mini-sobre nav{
+  height: 5px;
+  width: 15px;
+  background-color: rgb(0, 174, 255);
+  border-radius:10px;
+}
+.linguagens{
+  margin-top: 7px;
+  gap: 15px;
+  justify-content: start;
+}
+.linguagens svg{
+  color: #005EFF;
+  font-size: 35px;
+  filter: drop-shadow(0px 0px 3px black);
+  &:hover{
+    filter: drop-shadow(0px 0px 15px  rgb(0, 174, 255));
+  }
+}
+
+/*PROJETOS*/
+#projetos{
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  color: white;
+  margin: 150px 0px 50px 0px;
+}
+.container-projetos{
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.projeto{
+  height: 100%;
+  width: 650px;
+  gap: 100px;
+  box-shadow: 0px 0px 10px white;
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+.empresa, .descricao{
+  flex-direction: column;
+  gap: 15px;
+}
+.empresa img{
+  height: 150px;
+  border-radius: 50%;
+  filter: drop-shadow(0px 0px 5px rgb(0, 174, 255));
+}
+.empresa h3{
+  font-size: 20px;
+  font-family: "Raleway", serif;
+  color: white;
+  font-weight: 400;
+}
+.descricao p{
+  color: white;
+  text-align: center;
+  width: 250px;
+}
+.descricao a{
+  color: rgb(0, 174, 255);
+  text-decoration: none;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+/*FOOTER*/
+.logo{
+  height: 150px;
+}
+.frase{
+  color: white;
+  font-size: 20px;
+}

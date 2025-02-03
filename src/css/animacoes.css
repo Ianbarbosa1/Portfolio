@@ -1,0 +1,22 @@
+/*TITULOS*/
+@keyframes entrada1 {
+  0% {
+    left: 0;
+    opacity: 0;
+  }
+  100% {
+    left: 150px;
+    opacity: 1;
+  }
+}
+
+@keyframes entrada2 {
+  0% {
+    right: 0;
+    opacity: 0;
+  }
+  100% {
+    right: 150px;
+    opacity: 1;
+  }
+}
