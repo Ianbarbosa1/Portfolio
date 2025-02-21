@@ -1,4 +1,4 @@
-@media screen and (min-width: 350px) and (max-width: 479px) {
+@media screen and (min-width: 350px) and (max-width: 489px) {
     /*MENU*/
     .links {
         display: none;
@@ -17,9 +17,11 @@
     }
     .T1 {
         left: 0px;
+        top: 200px;
     }
     .T2 {
         right: 0px;
+        bottom: 200px;
     }
 
     main{
@@ -103,9 +105,11 @@
     }
     .T1 {
         left: 0px;
+        top: 200px;
     }
     .T2 {
         right: 0px;
+        bottom: 200px;
     }
 
     main{

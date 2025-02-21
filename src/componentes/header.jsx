@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { CiMenuFries } from "react-icons/ci"
+import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5"
 export function Header(){
     let [abrir, setAbrir] = useState(false);
@@ -37,7 +37,7 @@ export function Header(){
                     <a href="https://github.com/Ianbarbosa1" target="_blank">Repositório</a>
                 </div>
 
-                <CiMenuFries className="menu-hamburguer" onClick={abriu}/>
+                <FiMenu className="menu-hamburguer" onClick={abriu}/>
             </nav>
 
             <h1 className="T1">Portfólio</h1>
