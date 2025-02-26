@@ -16,7 +16,7 @@ export function Sobre() {
 
           <div className="mini-sobre">
             <nav></nav>
-            <h3>Linguagens Utilizadas</h3>
+            <h2>Linguagens Utilizadas</h2>
           </div>
 
           <div className="linguagens">
@@ -29,7 +29,7 @@ export function Sobre() {
 
           <div className="mini-sobre">
             <nav></nav>
-            <h3>Redes Sociais</h3>
+            <h2>Redes Sociais</h2>
           </div>
 
           <div className="linguagens">

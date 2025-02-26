@@ -41,7 +41,7 @@ export function Header(){
             </nav>
 
             <h1 className="T1">Portfólio</h1>
-            <h2 className="T2">Maria Beatriz</h2>
+            <h2 className="T2">Ian Barbosa</h2>
             
             <div className="detalhe2"></div>
         </>

@@ -147,28 +147,30 @@ footer{
   margin-top: 34px;
   justify-content: start;
   gap: 4px;
-}
-.mini-sobre h3{
-  font-weight: 500;
-  font-family: "Raleway", serif;
-}
-.mini-sobre nav{
-  height: 5px;
-  width: 15px;
-  background-color: rgb(0, 174, 255);
-  border-radius:10px;
+
+  & nav{
+    height: 5px;
+    width: 15px;
+    background-color: rgb(0, 174, 255);
+    border-radius:10px;
+  }
+  & h2{
+    font-weight: 500;
+    font-family: "Raleway", serif;
+  }
+  
 }
 .linguagens{
   margin-top: 7px;
   gap: 15px;
   justify-content: start;
-}
-.linguagens svg{
-  color: #005EFF;
-  font-size: 35px;
-  filter: drop-shadow(0px 0px 3px black);
-  &:hover{
-    filter: drop-shadow(0px 0px 15px  rgb(0, 174, 255));
+  & svg{
+    color: #005EFF;
+    font-size: 35px;
+    filter: drop-shadow(0px 0px 3px black);
+    &:hover{
+      filter: drop-shadow(0px 0px 15px  rgb(0, 174, 255));
+    }
   }
 }
 
@@ -195,30 +197,32 @@ footer{
 .empresa, .descricao{
   flex-direction: column;
   gap: 15px;
-}
-.empresa img{
-  height: 150px;
-  border-radius: 50%;
-  filter: drop-shadow(0px 0px 5px rgb(0, 174, 255));
-}
-.empresa h3{
-  font-size: 20px;
-  font-family: "Raleway", serif;
-  color: white;
-  font-weight: 400;
-}
-.descricao p{
-  color: white;
-  text-align: center;
-  width: 250px;
-}
-.descricao a{
-  color: rgb(0, 174, 255);
-  text-decoration: none;
-  &:hover{
-    text-decoration: underline;
+
+  & img{
+    height: 150px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 5px rgb(0, 174, 255));
+  }
+  & h1{
+    font-size: 20px;
+    font-family: "Raleway", serif;
+    color: white;
+    font-weight: 400;
+  } 
+  & p{
+    color: white;
+    text-align: center;
+    width: 250px;
+  }
+  & a{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
   }
 }
+
 
 /*FOOTER*/
 .logo{

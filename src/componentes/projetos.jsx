@@ -5,7 +5,7 @@ export function Projetos({imagem, nome, descricao, link}) {
         <section className="projeto">
           <div className="empresa">
             <img src={imagem} alt={nome}/>
-            <h3>{nome}</h3>
+            <h1>{nome}</h1>
           </div>
 
           <div className="descricao">
