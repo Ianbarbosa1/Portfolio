@@ -20,3 +20,12 @@
     opacity: 1;
   }
 }
+
+@keyframes movimento {
+  0%{
+    transform: translateY(-20px);
+  }
+  100%{
+    transform: translateY(20px);
+  }
+}

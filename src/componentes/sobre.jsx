@@ -23,7 +23,7 @@ export function Sobre() {
             <FaHtml5 title="HTML5" />
             <FaCss3 title="CSS" />
             <IoLogoJavascript title="JavaScript" />
-            <FaReact title="React" />
+            <FaReact title="ReactJs" />
             <FaPython title="Python" />
           </div>
 

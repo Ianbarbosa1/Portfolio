@@ -137,6 +137,7 @@ footer{
 }
 .icone-sobre{
   height: 400px;
+  animation: movimento 5s alternate infinite;
 }
 .sobre-texto{
   width: 550px;
