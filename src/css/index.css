@@ -43,7 +43,7 @@ footer{
 
 /*-----COMPONENTES-----*/
 /*DIVs FLEX*/
-.menu-tel, .links-menu-tel, .menu, .links, .sobre, .mini-sobre, .linguagens, .container-projetos, .projeto, .empresa, .descricao {
+.menu-tel, .links-menu-tel, .menu, .links, .sobre, .mini-sobre, .linguagens, .projetos-postados, .container-projetos, .projeto, .empresa, .descricao {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,7 +180,16 @@ footer{
   font-family: "Raleway", serif;
   font-weight: 400;
   color: white;
-  margin: 150px 0px 50px 0px;
+  margin: 150px 0px 20px 0px;
+}
+.projetos-postados{
+  margin-bottom: 50px;
+  gap: 5px;
+  padding: 10px;
+  border: 1px solid rgb(243, 233, 216);
+  & span{
+    color: white;
+  }
 }
 .container-projetos{
   gap: 50px;
@@ -194,6 +203,16 @@ footer{
   padding: 20px;
   border-radius: 10px;
   backdrop-filter: blur(5px);
+}
+#postado::before{
+  content: '';
+  position: absolute;
+  background-image: url(../assets/estrela.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 30px;
+  height: 100%;
+  width: 100%;
 }
 .empresa, .descricao{
   flex-direction: column;
@@ -216,6 +235,7 @@ footer{
     width: 250px;
   }
   & a{
+    z-index: +1;
     color: rgb(0, 174, 255);
     text-decoration: none;
     &:hover{
