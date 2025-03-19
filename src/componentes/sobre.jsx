@@ -12,7 +12,7 @@ export function Sobre() {
         <img src={imagem} alt="programador" className="icone-sobre"/>
 
         <div className="sobre-texto">
-          <p>Eu sou Ian da Costa Barbosa e atualmente tenho 20 anos de idade, tenho o desejo e a vontade de me tornar um programador. Meu primeiro contato com a tecnologia foi por meio de um tio, que me ensinou os conceitos inicias sobre manutenção e redes de computadores. Depois de alguns meses, iniciei na faculdade de engenharia de software e na minha primeira aula tive o contato com a programação, e estou até os dias atuais aprimorando meus conhecimentos na área.</p>
+          <p>Sou Ian da Costa Barbosa, estudante de Engenharia de Software. Tenho interesse em programação e desenvolvimento de sites, área na qual venho aprimorando meus conhecimentos desde o início da faculdade. Segue abaixo alguns dos projetos realizados.</p>
 
           <div className="mini-sobre">
             <nav></nav>
