@@ -12,7 +12,7 @@ export function Sobre() {
         <img src={imagem} alt="programador" className="icone-sobre"/>
 
         <div className="sobre-texto">
-          <p>Sou Ian da Costa Barbosa, estudante de Engenharia de Software. Tenho interesse em programação e desenvolvimento de sites, área na qual venho aprimorando meus conhecimentos desde o início da faculdade. Segue abaixo alguns dos projetos realizados.</p>
+          <p>Sou Ian, um estudante de engenharia de software super empolgado com programação e desenvolvimento de sites. Tenho me dedicado a aprimorar meus conhecimentos nessa área desde o início da faculdade. Aqui estão alguns dos projetos que realizei.</p>
 
           <div className="mini-sobre">
             <nav></nav>
