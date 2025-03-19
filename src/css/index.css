@@ -248,6 +248,7 @@ footer{
 /*FOOTER*/
 .logo{
   height: 150px;
+  border-radius: 50%;
 }
 .frase{
   color: white;
