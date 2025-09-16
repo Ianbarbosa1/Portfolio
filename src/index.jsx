@@ -17,6 +17,7 @@ import premag from "./assets/logos/premag.png";
 import yaris from "./assets/logos/yaris.jpg";
 import inventiva from "./assets/logos/inventiva.jpg";
 import estrela from "./assets/estrela.svg";
+import fertem from "./assets/logos/fertem.png";
 
 function App() {
   return (
@@ -53,7 +54,7 @@ function App() {
           <Projetos
             imagem={cristiano}
             nome="Cristiano Ronaldo"
-            descricao="Site do melhor jogador do mundo"
+            descricao="Site de um dos melhores jogadores de futebol do mundo"
             link="https://ianbarbosa1.github.io/Cristiano-Ronaldo/"
           />
 
@@ -114,6 +115,13 @@ function App() {
             nome="Inventiva Art"
             descricao="Empresa especializada em marketing digital"
             link="https://ianbarbosa1.github.io/Inventiva-Art/"
+          />
+
+          <Projetos
+            imagem={fertem}
+            nome="Fertem Ferragista"
+            descricao="Mini eccommerce de uma loja de construção local"
+            link="https://ianbarbosa1.github.io/fertem/"
           />
         </section>
       </main>
