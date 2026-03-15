@@ -1,11 +1,14 @@
 :root,* {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  transition: all 0.8s ease;
 }
 body{
-  background-color: #181818;
+  background-color: #111827;
 }
 
 /*-----APP-----*/
@@ -18,8 +21,7 @@ main, footer{
 header {
   height: 100vh;
   width: 100%;
-  background-color: #181818;
-  font-family: "Open Sans", serif;
+  background-color: #111827;
 }
 main{
   content:'';
@@ -28,16 +30,14 @@ main{
   background-size: cover;
   height: 100%;
   width: 100%;
-  border-radius: 50% 50% 50% 50% / 10% 10% 10% 10%;
-  padding:200px 0px;
+  border-radius: 10% 10% 10% 10% / 1% 1% 1% 1%;
+  padding :50px 0px;
   flex-direction: column;
-  font-family: "Open Sans", serif;
 }
 footer{
   height: 150px;
-  background-color: #181818;
+  background-color:#111827;
   justify-content: space-around;
-  font-family: "Open Sans", serif;
 }
 
 
@@ -57,15 +57,18 @@ footer{
   height: 5px;
   width: 500px;
   background-color: rgb(0, 174, 255);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .links{
+  padding: 10px;
   gap: 30px;
-  padding-right: 100px;
+  margin-right: 100px;
+  background-color: rgba(128, 128, 128, 0.185);
+  border-radius: 5px;
 }
 .links a, .links-menu-tel a {
   text-decoration: none;
-  color: white;
+  color: #F9FAFB;
   
   &:hover{
     color: #8a8989;
@@ -74,8 +77,8 @@ footer{
 /*TITULOS */
 .T1, .T2{
   font-family: "Raleway", serif;
-  font-size: 180px;
-  color: aliceblue;
+  font-size: 150px;
+  color: #F9FAFB;
   letter-spacing: 4px;
   position: absolute;
   font-weight: 400;
@@ -83,12 +86,13 @@ footer{
 .T1{
   top: 150px;
   left: 150px;
-  animation: entrada1 2s linear;
+  animation-delay: 5s;
+  animation: aparecer 5s ease-in-out;
 }
 .T2{
   bottom: 150px;
   right: 150px;
-  animation: entrada2 2s linear;
+  animation: aparecer 5s ease-in-out;
 }
 .detalhe2{
   position: absolute;
@@ -99,7 +103,7 @@ footer{
 /*MENU PARA TELEFONE*/
 .menu-hamburguer{
   display: none;
-  color: white;
+  color: #F9FAFB;
   font-size: 25px;
   filter: drop-shadow(0px 0px 3px rgb(0, 174, 255));
 }
@@ -112,7 +116,7 @@ footer{
   backdrop-filter: blur(10px);
 }
 .fechar{
-  color: white;
+  color: #F9FAFB;
   font-size: 30px;
 
   &:hover{
@@ -129,7 +133,7 @@ footer{
 #sobre{
   font-family: "Raleway", serif;
   font-weight: 400;
-  color: white;
+  color: #F9FAFB;
   margin-bottom: 50px;
 }
 .sobre{
@@ -142,7 +146,7 @@ footer{
 .sobre-texto{
   width: 550px;
   font-size: 18px;
-  color: white;
+  color: #F9FAFB;
 }
 .mini-sobre{
   margin-top: 34px;
@@ -153,7 +157,7 @@ footer{
     height: 5px;
     width: 15px;
     background-color: rgb(0, 174, 255);
-    border-radius:10px;
+    border-radius:5px;
   }
   & h2{
     font-weight: 500;
@@ -179,7 +183,7 @@ footer{
 #projetos{
   font-family: "Raleway", serif;
   font-weight: 400;
-  color: white;
+  color: #F9FAFB;
   margin: 150px 0px 20px 0px;
 }
 .projetos-postados{
@@ -188,7 +192,7 @@ footer{
   padding: 10px;
   border: 1px solid rgb(243, 233, 216);
   & span{
-    color: white;
+    color: #F9FAFB;
   }
 }
 .container-projetos{
@@ -199,9 +203,9 @@ footer{
   height: 100%;
   width: 650px;
   gap: 100px;
-  box-shadow: 0px 0px 10px white;
+  box-shadow: 0px 0px 10px #F9FAFB;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   backdrop-filter: blur(5px);
 }
 #postado::before{
@@ -226,11 +230,11 @@ footer{
   & h1{
     font-size: 20px;
     font-family: "Raleway", serif;
-    color: white;
+    color: #F9FAFB;
     font-weight: 400;
   } 
   & p{
-    color: white;
+    color: #F9FAFB;
     text-align: center;
     width: 250px;
   }
@@ -247,10 +251,10 @@ footer{
 
 /*FOOTER*/
 .logo{
-  height: 150px;
+  height: 120px;
   border-radius: 50%;
 }
 .frase{
-  color: white;
+  color: #F9FAFB;
   font-size: 20px;
 }

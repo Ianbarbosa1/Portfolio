@@ -1,4 +1,4 @@
-@media screen and (min-width: 350px) and (max-width: 489px) {
+@media screen and (min-width: 350px) and (max-width: 599px) {
     /*MENU*/
     .links {
         display: none;
@@ -8,25 +8,24 @@
         margin-right: 20px;
     }
 
+    .titulos{
+        height: 90%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
     /*TITULOS*/
     .detalhe, .detalhe2{
         width: 250px;
     }
     .T1,.T2 {
         font-size: 55px;
-    }
-    .T1 {
-        left: 0px;
-        top: 200px;
-    }
-    .T2 {
-        right: 0px;
-        bottom: 200px;
+        text-align: center;
+        position: static;
     }
 
-    main{
-        border-radius: 50% 50% 50% 50% / 1.5% 1.5% 1.5% 1.5%;
-    }
     /*SOBRE*/
     .sobre{
         gap: 20px;
@@ -86,35 +85,29 @@
     }
 }
 
-@media screen and (min-width: 490px) and (max-width: 689px) {
-    /*MENU*/
-    .links {
-        display: none;
+@media screen and (min-width: 600px) and (max-width: 999px) {
+    .titulos{
+        height: 90%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
-    .menu-hamburguer{
-        display: flex;
-        margin-right: 20px;
+    /*MENU*/
+    .links{
+        margin-right: 5px;
     }
 
     /*TITULOS*/
     .detalhe, .detalhe2{
-        width: 250px;
+        width: 150px;
       }
     .T1,.T2 {
         font-size: 70px;
-    }
-    .T1 {
-        left: 0px;
-        top: 200px;
-    }
-    .T2 {
-        right: 0px;
-        bottom: 200px;
+        position: static;
+        text-align: center;
     }
 
-    main{
-        border-radius: 50% 50% 50% 50% / 1.5% 1.5% 1.5% 1.5%;
-    }
     /*SOBRE*/
     .sobre{
         gap: 20px;
@@ -166,131 +159,22 @@
     }
 }
 
-@media screen and (min-width: 690px) and (max-width: 849px) {
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
     /*MENU*/
-    .links {
-        padding-right: 20px;
+    .links{
+        margin-right: 30px;
     }
-
-    /*TITULOS*/
-    .detalhe, .detalhe2{
-        width: 250px;
-      }
+    /*TITULOS */
     .T1,.T2 {
         font-size: 100px;
     }
     .T1 {
-        left: 0px;
+        left: 30px;
     }
     .T2 {
-        right: 0px;
+        right: 30px;
     }
 
-    main{
-        border-radius: 50% 50% 50% 50% / 2% 2% 2% 2%;
-    }
-    /*SOBRE*/
-    .sobre{
-        gap: 20px;
-        flex-direction: column;
-    }
-
-    @keyframes entrada1 {
-        0% {
-          left: -50px;
-          opacity: 0;
-        }
-        100% {
-          left: 0px;
-          opacity: 1;
-        }
-    }
-    @keyframes entrada2 {
-        0% {
-          right: -50px;
-          opacity: 0;
-        }
-        100% {
-          right: 0px;
-          opacity: 1;
-        }
-    }
-}
-
-@media screen and (min-width: 850px) and (max-width: 999px) {
-    /*MENU*/
-    .links {
-        padding-right: 20px;
-    }
-
-    /*TITULOS*/
-    .detalhe, .detalhe2{
-        width: 400px;
-      }
-    .T1,.T2 {
-        font-size: 120px;
-    }
-    .T1 {
-        left: 10px;
-    }
-    .T2 {
-        right: 0px;
-    }
-
-    main{
-        border-radius: 50% 50% 50% 50% / 5% 5% 5% 5%;
-    }
-    /*SOBRE*/
-    .icone-sobre{
-        height: 300px;
-    }
-    .sobre-texto{
-        width: 400px;
-    }
-
-    /*ANIMAÇÕES*/   
-    @keyframes entrada1 {
-        0% {
-          left: -100px;
-          opacity: 0;
-        }
-        100% {
-          left: 0px;
-          opacity: 1;
-        }
-    }
-    @keyframes entrada2 {
-        0% {
-          right: -100px;
-          opacity: 0;
-        }
-        100% {
-          right: 0px;
-          opacity: 1;
-        }
-    }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1400px) {
-    /*MENU*/
-    .links {
-        padding-right: 20px;
-    }
-
-    /*TITULOS */
-    .T1,.T2 {
-        font-size: 150px;
-    }
-    .T1 {
-        left: 10px;
-    }
-    .T2 {
-        right: 0px;
-    }
-
-    main{
-        border-radius: 50% 50% 50% 50% / 5% 5% 5% 5%;
-    }
     /*SOBRE*/
     .icone-sobre{
         height: 350px;

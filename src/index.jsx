@@ -18,6 +18,8 @@ import yaris from "./assets/logos/yaris.jpg";
 import inventiva from "./assets/logos/inventiva.jpg";
 import estrela from "./assets/estrela.svg";
 import fertem from "./assets/logos/fertem.png";
+import contabilPet from "./assets/logos/contabil pet.png";
+import inovar from "./assets/logos/bazar inovar.png"
 
 function App() {
   return (
@@ -28,11 +30,11 @@ function App() {
 
       <main>
         <Sobre />
-        
+
         <h1 id="projetos">Projetos</h1>
 
         <div className="projetos-postados">
-          <img src={estrela} alt="estrela"/>
+          <img src={estrela} alt="estrela" />
           <span>Projetos postados</span>
         </div>
 
@@ -122,6 +124,20 @@ function App() {
             nome="Fertem Ferragista"
             descricao="Mini eccommerce de uma loja de construção local"
             link="https://ianbarbosa1.github.io/fertem/"
+          />
+
+          <Projetos
+            imagem={contabilPet}
+            nome="Contábil Pet"
+            descricao="Empresa de contabilidade para pet shops"
+            link="https://ianbarbosa1.github.io/Contabil-Pet/"
+          />
+
+          <Projetos
+            imagem={inovar}
+            nome="Bazar Inovar"
+            descricao="Sistema de sorteio integrado com o firebase"
+            link="http://localhost:5173/Portfolio"
           />
         </section>
       </main>

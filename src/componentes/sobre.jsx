@@ -1,6 +1,6 @@
 /*IMAGEMs*/
 import imagem from "../assets/icone.svg";
-import { FaHtml5,FaCss3,FaReact,FaPython,FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaHtml5,FaCss3,FaReact,FaPython,FaInstagram, FaLinkedin, FaPhp, FaDatabase } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 
 export function Sobre() {
@@ -25,6 +25,8 @@ export function Sobre() {
             <IoLogoJavascript title="JavaScript" />
             <FaReact title="ReactJs" />
             <FaPython title="Python" />
+            <FaPhp title="Php"/>
+            <FaDatabase title="Banco de Dados"/>
           </div>
 
           <div className="mini-sobre">
