@@ -137,7 +137,7 @@ function App() {
             imagem={inovar}
             nome="Bazar Inovar"
             descricao="Sistema de sorteio integrado com o firebase"
-            link="https://bazar-inovar.github.io/Fim-de-Ano-Premiado/"
+            link="https://bazar-inovar.github.io/Sorteio-Bazar-Inovar/"
           />
         </section>
       </main>

@@ -18,7 +18,7 @@ export function Header(){
                     <nav className="menu-tel">
                     <div className="links-menu-tel">
                         <IoClose className="fechar" onClick={fechar}/>
-                        <a href="https://drive.google.com/file/d/15GXpQnAvl3hv6wvd1XEhbIMB1xcvMtTw/view" target="_blank">Curriculo</a>
+                        <a href="https://drive.google.com/file/d/1GBANb_K35SZ8xXljWsm0VykthOQiR5ZT/view?usp=sharing" target="_blank">Curriculo</a>
                         <a href="#sobre">Sobre Mim</a>
                         <a href="#projetos">Projetos</a>
                         <a href="https://github.com/Ianbarbosa1" target="_blank">Repositório</a>
@@ -31,7 +31,7 @@ export function Header(){
                 <div className="detalhe"></div>
 
                 <div className="links">
-                    <a href="https://drive.google.com/file/d/15GXpQnAvl3hv6wvd1XEhbIMB1xcvMtTw/view" target="_blank">Curriculo</a>
+                    <a href="https://drive.google.com/file/d/1GBANb_K35SZ8xXljWsm0VykthOQiR5ZT/view?usp=sharing" target="_blank">Curriculo</a>
                     <a href="#sobre">Sobre Mim</a>
                     <a href="#projetos">Projetos</a>
                     <a href="https://github.com/Ianbarbosa1" target="_blank">Repositório</a>
